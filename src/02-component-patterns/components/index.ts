@@ -1,14 +1,13 @@
 import { ProductCard as ProductCardHOC } from './ProductCard';
+import { ProductCardHOCProps } from '../interfaces/interfaces';
 
 import { ProductButtons } from './ProductButtons';
 import { ProductImage } from './ProductImage';
 import { ProductTitle } from './ProductTitle';
 
-import { ProductCardHOCProps } from '../interfaces/interfaces';
-
-export * from './ProductButtons';
-export * from './ProductImage';
-export * from './ProductTitle';
+// export * from './ProductButtons';
+// export * from './ProductImage';
+// export * from './ProductTitle';
 
 const ProductCard: ProductCardHOCProps = Object.assign( ProductCardHOC, {
   Title: ProductTitle,
